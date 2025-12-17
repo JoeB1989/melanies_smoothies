@@ -1,5 +1,6 @@
 # Import python packages
 import streamlit as st
+import requests
 from snowflake.snowpark.functions import col
 
 conn = st.connection("snowflake")         # uses [connections.snowflake] from Secrets
